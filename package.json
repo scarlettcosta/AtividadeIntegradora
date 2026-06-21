@@ -1,0 +1,24 @@
+{
+  "name": "atividadeintegradora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarlettcosta/AtividadeIntegradora.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/scarlettcosta/AtividadeIntegradora/issues"
+  },
+  "homepage": "https://github.com/scarlettcosta/AtividadeIntegradora#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
