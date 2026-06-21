@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo para prova</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+<h2>Assistente de Estudos para Desenvolvimento de Software</h2><br>
+<label for="txtPrompt"> Algumas possíveis questões: <br>
+    O que é o Software Crafmainship?<br>
+    O que foi a crise do Software?<br>
+    O que foi a revolução ágil?<br>
+    Quais são os papéis no OpenUp?<br>
+    Qual a importância da Filosofia Lean?<br>
+    Qual a importância do Clean Code?<br>
+    Qual a importância dos Design Patterns?<br>
+<br>
+    <h4>Digite a sua pergunta:</label></h4>
+<textarea id="txtPrompt" placeholder="Escreva aqui..."></textarea><br>
+<button onclick="enviarRequisicao()">Enviar para o Gemini</button>
+<h4> Resposta: </h4>
+<div id="txtResposta">
+...
+
+</div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
